@@ -17,4 +17,9 @@ public class DemoController {
 		return "leaders";
 	}
 	
+	@RequestMapping(path = "/systems", method = RequestMethod.GET)
+	public String showSystems() {
+		return "systems";
+	}
+	
 }
